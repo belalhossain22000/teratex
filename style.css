@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.901%;
+}
+h2 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px; /* 118.182% */
+}
+h5 {
+  color: #000;
+  font-family: Circular Std;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+  font-style: bold;
+}
+
+p {
+  color: #000;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 155.556%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  overflow: hidden;
+}
+/* img{
+    width: auto;
+    height: auto;
+} */
+
+.contain {
+  max-width: 1290px;
+  width: 100%;
+
+  margin: auto;
+  padding: 20px 0;
+}
+.yellow-btn {
+  width: 195px;
+  height: 70px;
+  border-radius: 4px;
+  background: #eabd23;
+  color: var(--p-3, #040418);
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 155.556%; /*  */
+}
+.blue-text {
+  color: #5865f2;
+  font-family: Circular Std;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+}
+.blue-line {
+  width: 100px;
+  height: 4px;
+  border-radius: 30px;
+  background: var(--p-4, #2d4bff);
+}
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 !important;
+}
+.gray-bg {
+  background: #f6f5ff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+nav ul li {
+  color: #000;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 155.556%;
+}
+.logo {
+  width: 80px;
+  height: 83px;
+}
+.navbtn {
+  border-radius: 4px;
+  border: 2px solid #5865f2;
+  background: #f4f9ff;
+  width: 145px;
+  height: 55px;
+  color: #5865f2;
+}
+/* small device nav style */
+.offcanvas-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.offcanvas-body ul li {
+  color: #000;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 155.556%;
+}
+.fa-bars {
+  font-size: 30px;
+}
+
+/* hero */
+.hero-right {
+  margin-right: -90px;
+  width: fit-content;
+  overflow: hidden;
+}
+/* counter */
+.vertical-line {
+  width: 1px;
+  height: 50px;
+  background: #bdbdbd;
+}
+.counter {
+  margin-top: 70px;
+}

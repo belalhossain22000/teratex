@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teratex</title>
+    <!-- connect to raw css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- connect to bootstrap v.5.3 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="gray-bg">
+        <!-- btn large device -->
+        <nav class="contain">
+            <!--     logo         -->
+            <div>
+                <img class="logo" src="./Image/navbar/Transparent Logo 1.svg" alt="logo">
+
+            </div>
+            <!-- nav item -->
+            <ul class="d-none d-lg-flex">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Pricing</li>
+                <li>Custom Quote</li>
+                <li>Resources</li>
+
+            </ul>
+            <!-- btn  -->
+            <button class="navbtn d-none d-lg-block">Work with us</button>
+            <button class="btn  d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon "><i class="fa-solid fa-bars"></i></span>
+            </button>
+        </nav>
+        <!-- navbar for small device -->
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <!-- logo -->
+            <div class="offcanvas-header py-4">
+                <img class="logo" src="./Image/navbar/Transparent Logo 1.svg" alt="logo">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- body -->
+            <div class="offcanvas-body">
+                <ul class="">
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Pricing</li>
+                    <li>Custom Quote</li>
+                    <li>Resources</li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <!-- hero section  -->
+        <section class="gray-bg py-5">
+
+            <div class="d-flex flex-md-row flex-column align-items-center  contain -m-lg-5">
+                <div>
+                    <h1>Navigate <br> Crypto Taxation <br> Confidently</h1>
+                    <p class="mt-4">Catering specifically to the needs of the cryptocurrency community,<br> our
+                        personalized tax
+                        services
+                        are
+                        designed to provide comprehensive <br> assistance tailored to your unique financial situation.
+                    </p>
+                    <button class="yellow-btn mt-4">Talk To Expert</button>
+                    <!-- counter -->
+                    <div class="d-flex justify-content-between align-items-center counter">
+                        <div>
+                            <h5>350+</h5>
+                            <p>individuals</p>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <div>
+                            <h5>350+</h5>
+                            <p>individuals</p>
+                        </div>
+                        <div class="vertical-line"></div>
+                        <div>
+                            <h5>350+</h5>
+                            <p>individuals</p>
+                        </div>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img class="img-fluid " src="./Image/hero/Group_2.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- who we are -->
+        <section class="contain d-flex flex-md-row flex-column align-items-center">
+            <div>
+                <img class="img-fluid " src="./Image/who/Group 1413372416.png" alt="">
+            </div>
+            <div>
+                <h4 class="blue-text">Welcome to TeraTax</h4>
+                <div class="blue-line"></div>
+                <h2>Who we are​</h2>
+                <p>
+                    At TeraTax, we blend the best of tech with expert know-how to <br> simplify taxes. We dive deep into
+                    your
+                    unique financial world, so <br> our advice fits just right. With a strong background in accounting
+                    <br> and
+                    crypto, we've got the skills to guide you.
+
+                </p>
+                <p> Why choose us? We don't offer one-size-fits-all answers. We mix <br>trusted methods with the latest
+                    tools, aiming for your financial win.
+                </p>
+                <p>Join TeraTax. We make today's tax solutions ready for tomorrow. <br> Your success is our goal.</p>
+            </div>
+        </section>
+        <!-- navigating section -->
+        <section>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="blue-text">What we do</h4>
+                <div class="blue-line"></div>
+                <h2 class="text-center">Navigating Taxes with <br> Crypto Assurance</h2>
+            </div>
+            <div>
+                <div>
+                    <img src="./Image/navigating/image1.svg" alt="">
+                    <h6 class="h6">Tax Preparation</h6>
+                    <p>Simplifying complex tax processes with innovative tech, and a user-friendly client portal,</p>
+                    <button>Red more <span></span></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- connect to bootstrap v5.3 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
