@@ -37,6 +37,7 @@ p {
   font-weight: 450;
   line-height: 155.556%;
 }
+
 li {
   list-style: none;
 }
@@ -84,6 +85,45 @@ section {
   border-radius: 30px;
   background: var(--p-4, #2d4bff);
 }
+.blue-btn {
+  color: #5865f2;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px; /* 155.556% */
+  border: none;
+  background: white;
+}
+.card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+.cards {
+  padding: 30px;
+  width: 300px;
+  height: 366px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.cards h6 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #000;
+  font-family: Circular Std;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+cards button {
+  margin-top: 20px;
+}
+
 /* navbar */
 nav {
   display: flex;
@@ -151,4 +191,44 @@ nav ul li {
 }
 .counter {
   margin-top: 70px;
+}
+/* Who we work with */
+.text-side button {
+  margin-top: 30px;
+}
+/* Our reasons for choosing us */
+.reason-card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  grid-gap: 30px;
+}
+.reason-card {
+  /* width: 410px; */
+  height: 310px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 24px;
+}
+.reason-card h6 {
+  color: #000;
+  font-family: Circular Std;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.reason-card small {
+  margin-top: 16px;
+  color: var(--p-3, #040418);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 180% */
+}
+.reason-card h6 {
+  margin-top: 24px;
 }
