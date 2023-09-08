@@ -12,38 +12,38 @@ body {
   box-sizing: border-box;
 }
 h1 {
-  color: #000;
-  font-family: Playfair Display;
-  font-size: 71px;
-  font-style: normal;
+  color: #000!important;
+  font-family: Playfair Display!important;
+  font-size: 71px!important;
+  font-style: normal!important;
   font-weight: 700;
-  line-height: 116.901%;
+  line-height: 116.901%!important;
 }
 h2 {
-  color: #000;
-  font-family: Playfair Display;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 65px; /* 118.182% */
+  color: #000!important;
+  font-family: Playfair Display!important;
+  font-size: 55px!important;
+  font-style: normal!important;
+  font-weight: 700!important;
+  line-height: 65px!important; /* 118.182% */
 }
 .counter div h5 {
-  color: #000;
-  font-family: Circular Std;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 46px;
-  font-style: bold;
+  color: #000!important;
+  font-family: Circular Std!important;
+  font-size: 36px!important;
+  font-style: normal!important;
+  font-weight: 500!important;
+  line-height: 46px!important;
+  font-style: bold!important;
 }
 
 p {
-  color: #000;
-  font-family: Circular Std;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: 155.556%;
+  color: #000!important;
+  font-family: Circular Std!important;
+  font-size: 18px!important;
+  font-style: normal!important;
+  font-weight: 450!important;
+  line-height: 155.556%!important;
 }
 
 li {
