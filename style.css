@@ -222,26 +222,34 @@ nav ul li {
 /* Custom CSS for accordion */
 .accordion {
   border: none !important;
-  background-color: none!important;
+  background-color: none !important;
   color: white;
   width: 600px;
 }
 .accordion-item {
+  height: fit-content!important;
+  margin:16px 0 !important;
+  /* padding: 0!important; */
+  padding-right: 0!important;
   border-radius: 6px !important;
-  border: none!important;
+  border: none !important;
   background: #fff !important;
+  box-shadow: 10px 20px 120px 0px rgba(0, 0, 0, 0.06) !important;
 }
 
 .accordion-button {
+  outline: none;
   border-radius: 6px !important;
   border: 2px solid #eaf2f9 !important;
   background: #fff !important;
-  color: var(--p-3, #040418)!important;
-  font-family: Inter!important;
-  font-size: 22px!important;
-  font-style: normal!important;
-  font-weight: 600!important;
-  line-height: normal!important;
+  color: var(--p-3, #040418) !important;
+  font-family: Inter !important;
+  font-size: 22px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  margin: 0!important;
+  box-shadow:none!important;
 }
 
 .accordion-button[aria-expanded="true"] {
@@ -249,6 +257,7 @@ nav ul li {
   border: none !important;
   color: white !important;
 }
+
 /* Our reasons for choosing us */
 .reason {
   margin-top: 130px;
