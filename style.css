@@ -221,6 +221,7 @@ nav ul li {
 /* accordian */
 /* Custom CSS for accordion */
 .accordion {
+  margin-top: 40px!important;
   border: none !important;
   background-color: none !important;
   color: white;
@@ -228,9 +229,10 @@ nav ul li {
 }
 .accordion-item {
   height: fit-content!important;
-  margin:16px 0 !important;
+  /* margin-top:16px!important; */
   /* padding: 0!important; */
   padding-right: 0!important;
+  padding-bottom: 0!important;
   border-radius: 6px !important;
   border: none !important;
   background: #fff !important;
