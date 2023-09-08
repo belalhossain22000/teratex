@@ -1,0 +1,26 @@
+/* large device for 1024 */
+@media (max-width: 1280px) {
+    /* hero */
+    .hero-right{
+        margin-right: 0;
+    }
+    .counter{
+        margin-top: 30px;
+    }
+}
+
+/* large device for 992 */
+@media (min-width: 992px) and (max-width: 1024px) {
+    /* hero */
+    .hero-right{
+        margin-right: 0;
+    }
+    .counter{
+        margin-top: 30px;
+    }
+    /* reason */
+    .reason{
+        margin-top: 70px;
+        padding: 70px 0;
+      }
+}
