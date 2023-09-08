@@ -218,7 +218,37 @@ nav ul li {
 .text-side button {
   margin-top: 30px;
 }
+/* accordian */
+/* Custom CSS for accordion */
+.accordion {
+  border: none !important;
+  background-color: none!important;
+  color: white;
+  width: 600px;
+}
+.accordion-item {
+  border-radius: 6px !important;
+  border: none!important;
+  background: #fff !important;
+}
 
+.accordion-button {
+  border-radius: 6px !important;
+  border: 2px solid #eaf2f9 !important;
+  background: #fff !important;
+  color: var(--p-3, #040418)!important;
+  font-family: Inter!important;
+  font-size: 22px!important;
+  font-style: normal!important;
+  font-weight: 600!important;
+  line-height: normal!important;
+}
+
+.accordion-button[aria-expanded="true"] {
+  background-color: #5764ef !important;
+  border: none !important;
+  color: white !important;
+}
 /* Our reasons for choosing us */
 .reason {
   margin-top: 130px;
@@ -375,7 +405,6 @@ nav ul li {
   margin-left: 10px;
 }
 
-
 /* let-tax-area */
 .let-terataxa-area {
   margin-top: -530px;
@@ -430,7 +459,6 @@ nav ul li {
     display: block;
   }
 }
-
 
 /* footer */
 
