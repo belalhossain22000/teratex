@@ -27,7 +27,7 @@ h2 {
   font-weight: 700 !important;
   line-height: 65px !important; /* 118.182% */
 }
-.counter div h5 {
+ h5 {
   color: #000 !important;
   font-family: Circular Std !important;
   font-size: 36px !important;
@@ -67,6 +67,7 @@ section {
   padding: 20px 0;
 }
 .yellow-btn {
+  border: none;
   width: 195px;
   height: 70px;
   border-radius: 4px;
@@ -228,7 +229,7 @@ nav ul li:hover {
 
 /* .hero-right img{
   width: auto;
-  height: auto;
+  height: auto;h5
 } */
 /* counter */
 .vertical-line {

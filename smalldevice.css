@@ -25,12 +25,20 @@
     width: 100%;
   }
   .accordion-button {
-   
     font-family: Inter !important;
     font-size: 18px !important;
     font-style: normal !important;
     font-weight: 600 !important;
     line-height: normal !important;
   }
-  
+  .gray-vertical-line {
+    background: #ddd;
+    width: 1px;
+    height: 150px;
+  }
+  .gray-hr-line {
+    /* background: #ddd; */
+    border-bottom: 1px solid #ddd;
+    
+  }
 }

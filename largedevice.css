@@ -21,12 +21,15 @@
   h1,
   h2 {
     font-size: 32px !important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    line-height: 40px!important; /* 125% */
   }
   h5 {
     font-size: 32px !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    line-height: 32px !important; /* 100% */
+    line-height: 100% !important; /* 100% */
   }
   p {
     font-size: 16px !important;
