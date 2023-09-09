@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .contain {
+    max-width: 390px;
+  }
+  .blue-text {
+    color: #5865f2;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+  }
+  .blue-line {
+    border-radius: 30px;
+    background: var(--p-4, #2d4bff);
+    width: 80px;
+    height: 3px;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .image-side,
+  .text-side {
+    width: 100%;
+  }
+  .accordion-button {
+   
+    font-family: Inter !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+  }
+  
+}

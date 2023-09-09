@@ -1,26 +1,53 @@
 /* large device for 1024 */
 @media (max-width: 1280px) {
-    /* hero */
-    .hero-right{
-        margin-right: 0;
-    }
-    .counter{
-        margin-top: 30px;
-    }
+  h1 {
+    font-size: 50px !important;
+  }
+  /* hero */
+  .hero-right {
+    margin-right: 0;
+  }
+  .counter {
+    margin-top: 30px;
+  }
+  .text-side {
+    width: 50%;
+  }
 }
 
-/* large device for 992 */
-@media (min-width: 992px) and (max-width: 1024px) {
-    /* hero */
-    .hero-right{
-        margin-right: 0;
-    }
-    .counter{
-        margin-top: 30px;
-    }
-    /* reason */
-    .reason{
-        margin-top: 70px;
-        padding: 70px 0;
-      }
+/* large device for  */
+/* (min-width: 768px) and */
+@media (max-width: 1024px) {
+  h1,
+  h2 {
+    font-size: 32px !important;
+  }
+  h5 {
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 32px !important; /* 100% */
+  }
+  p {
+    font-size: 16px !important;
+  }
+
+  /* hero */
+  .hero-right {
+    margin-right: 0;
+  }
+  .counter {
+    margin-top: 30px;
+  }
+  /* reason */
+  .reason {
+    margin-top: 70px;
+    padding: 70px 0;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .text-side {
+    width: 50%;
+  }
 }

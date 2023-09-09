@@ -8,6 +8,7 @@
     <!-- connect to raw css -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="largedevice.css">
+    <link rel="stylesheet" href="smalldevice.css">
     <!-- connect to bootstrap v.5.3 cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -46,9 +47,9 @@
             </ul>
             <!-- btn  -->
             <button class="navbtn d-none d-lg-block">Work with us</button>
-            <button class="btn  d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                aria-controls="offcanvasExample">
-                <span class="navbar-toggler-icon "><i class="fa-solid fa-bars"></i></span>
+            <button class="btn  d-lg-none d-flex align-items-center justify-content-center" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-ico cursor-pointer"><img src="./Image/navbar/bar.svg" alt=""></span>
             </button>
         </nav>
         <!-- navbar for small device -->
@@ -75,20 +76,35 @@
     </header>
     <main class="">
         <!-- hero section  -->
-        <section class="gray-bg py-5 p-xl-0 px-4  d-non ">
+        <section class="gray-bg py-5 p-xl-0 px-4  d-non">
 
             <div class="d-flex flex-md-row flex-column align-items-center justify-content-between contain ">
-                <div class=" bg-primar ">
-                    <h1>Navigate <br> Crypto Taxation <br> Confidently</h1>
-                    <p class="mt-xl-4 mt-2 ">Catering specifically to the needs of the cryptocurrency community,<br> our
+                <div
+                    class=" bg-primar text-center text-md-start d-flex flex-column align-items-center align-items-md-start ">
+                    <h1 class="d-none d-md-block">Navigate <br> Crypto Taxation <br> Confidently</h1>
+                    <h1 class="d-md-none">Navigate Crypto <br>Taxation Confidently</h1>
+                    <p class="mt-xl-4 mt-2 d-none d-md-block">Catering specifically to the needs of the
+                        cryptocurrency community,<br> our
                         personalized tax
                         services
                         are
                         designed to provide comprehensive <br> assistance tailored to your unique financial situation.
                     </p>
+                    <p class="mt-xl-4 mt-2 d-md-none">Catering specifically to the needs of the <br>cryptocurrency
+                        community our
+                        personalized <br> tax
+                        services
+                        are
+                        designed to provide <br>comprehensive assistance tailored to your <br> unique financial
+                        situation.
+                    </p>
                     <button class="yellow-btn mt-2 mt-xl-4">Talk To Expert</button>
+                    <div class="hero-right  bg-primary-subtl d-block d-md-none my-5">
+                        <img class="img-fluid" src="./Image/hero/Group 1413372424.png" alt="">
+                    </div>
                     <!-- counter -->
-                    <div class="d-flex flex-wrap justify-content-between align-items-center counter ">
+                    <div class="d-md-flex  flex-wrap justify-content-between align-items-center counter gap-4 d-none ">
+
                         <div>
                             <h5>350+</h5>
                             <p>individuals</p>
@@ -108,9 +124,37 @@
                             <h5>7+</h5>
                             <p>Crypto Funds</p>
                         </div>
+
+                    </div>
+                    <div class="d-block d-md-none d-flex gap-5 flex-column">
+                        <div class="d-flex justify-content-between gap-5 ">
+
+                            <div>
+                                <h5>350+</h5>
+                                <p>individuals</p>
+                            </div>
+                            <div>
+                                <h5>50+</h5>
+                                <p>Entities</p>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div class="d-flex justify-content-between gap-5">
+
+                            <div>
+                                <h5>5+</h5>
+                                <p>Validators</p>
+                            </div>
+
+                            <div>
+                                <h5>7+</h5>
+                                <p>Crypto Funds</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="hero-right  bg-primary-subtl  ">
+                <div class="hero-right  bg-primary-subtl d-md-block d-none ">
                     <img class="img-fluid" src="./Image/hero/Group 1413372424.png" alt="">
                 </div>
             </div>
@@ -134,25 +178,53 @@
         </section>
         <!-- who we are -->
         <section class="contain d-non mt-5 px-4 px-xl-0 pt-lg-5 d-flex flex-md-row flex-column align-items-center">
-            <div>
+            <div class="d-none d-md-block">
                 <img class="img-fluid " src="./Image/who/Group 1413372416.png" alt="">
             </div>
             <div>
-                <h4 class="blue-text">Welcome to TeraTax</h4>
-                <div class="blue-line"></div>
-                <h2>Who we are​</h2>
-                <p class="mt-3">
-                    At TeraTax, we blend the best of tech with expert know-how to <br> simplify taxes. We dive deep into
-                    your
-                    unique financial world, so <br> our advice fits just right. With a strong background in accounting
-                    <br> and
-                    crypto, we've got the skills to guide you.
+                <div class="d-flex flex-column align-items-md-start align-items-center text-center text-md-start">
+                    <h4 class="blue-text ">Welcome to TeraTax</h4>
+                    <div class="blue-line "></div>
+                    <h2 class=" ">Who we are​</h2>
+                </div>
+                <div class="d-block d-md-none mb-4">
+                    <img class="img-fluid " src="./Image/who/Group 1413372416.png" alt="">
+                </div>
+                <div class="d-none d-md-block">
 
-                </p>
-                <p> Why choose us? We don't offer one-size-fits-all answers. We mix <br>trusted methods with the latest
-                    tools, aiming for your financial win.
-                </p>
-                <p>Join TeraTax. We make today's tax solutions ready for tomorrow. <br> Your success is our goal.</p>
+                    <p class="">
+                        At TeraTax, we blend the best of tech with expert know-how to <br> simplify taxes. We dive deep
+                        into
+                        your
+                        unique financial world, so <br> our advice fits just right. With a strong background in
+                        accounting
+                        <br> and
+                        crypto, we've got the skills to guide you.
+
+                    </p>
+                    <p> Why choose us? We don't offer one-size-fits-all answers. We mix <br>trusted methods with the
+                        latest
+                        tools, aiming for your financial win.
+                    </p>
+                    <p>Join TeraTax. We make today's tax solutions ready for tomorrow. <br> Your success is our goal.
+                    </p>
+                </div>
+                <div class="d-md-none d-block">
+
+                    <p class="">
+                        At TeraTax, we blend the best of tech with expert know-how to simplify taxes. We dive deep into
+                        your
+                        unique financial world, so our advice fits just right. With a strong background in accounting
+                        and
+                        crypto, we've got the skills to guide you.
+
+                    </p>
+                    <p> Why choose us? We don't offer one-size-fits-all answers. We mix trusted methods with the latest
+                        tools, aiming for your financial win.
+                    </p>
+                    <p>Join TeraTax. We make today's tax solutions ready for tomorrow. Your success is our goal.</p>
+                </div>
+
             </div>
         </section>
         <!-- navigating section -->
@@ -175,24 +247,24 @@
                     </div>
                     <div class="cards">
                         <img src="./Image/navigating/image1.svg" alt="">
-                        <h6 class="h6">Tax Preparation</h6>
-                        <p>Simplifying complex tax processes with innovative tech, and a user-friendly client portal,
+                        <h6 class="h6">Tax Advisory & <br> Planning</h6>
+                        <p>Crafting bespoke tax strategies and plans, we align with each client's
                         </p>
                         <button class="blue-btn">Red more <img src="./Image/navigating/Arrow 1.png"
                                 alt="arrow"></button>
                     </div>
                     <div class="cards">
                         <img src="./Image/navigating/image1.svg" alt="">
-                        <h6 class="h6">Tax Preparation</h6>
-                        <p>Simplifying complex tax processes with innovative tech, and a user-friendly client portal,
+                        <h6 class="h6">Digital Asset Accounting</h6>
+                        <p>Establish a robust and precise financial groundwork that supports
                         </p>
                         <button class="blue-btn">Red more <img src="./Image/navigating/Arrow 1.png"
                                 alt="arrow"></button>
                     </div>
                     <div class="cards">
                         <img src="./Image/navigating/image1.svg" alt="">
-                        <h6 class="h6">Tax Preparation</h6>
-                        <p>Simplifying complex tax processes with innovative tech, and a user-friendly client portal,
+                        <h6 class="h6">Crypto Tax Course</h6>
+                        <p>Equip yourself with the skills to precisely track and report all your crypto activities.​​
                         </p>
                         <button class="blue-btn">Red more <img src="./Image/navigating/Arrow 1.png"
                                 alt="arrow"></button>
@@ -201,13 +273,18 @@
             </div>
         </section>
         <!-- Who we work with section -->
-        <section class="contain d-flex align-items-center gap-5 justify-content-between  d-non">
+        <section
+            class="contain d-non d-flex flex-md-row flex-column align-items-center gap-5 justify-content-between  d-non px-4  px-xl-0">
             <div class="text-side">
                 <h2>Who we work with</h2>
-                <p class="mt-3">Navigating Crypto Taxation Confidently is an essential skill for anyone <br> involved in the world of
+                <p class="mt-3">Navigating Crypto Taxation Confidently is an essential skill for anyone <br> involved in
+                    the world of
                     cryptocurrencies. With the rapid growth.</p>
+                <div class="image-side d-block d-md-none my-5">
+                    <img class="img-fluid" src="./Image/we work/Group 1413372423.png" alt="">
+                </div>
                 <!-- accordion -->
-                <div class="accordion mt-4 row" id="accordionExample">
+                <div class="accordion mt-4 row w-100" id="accordionExample">
                     <div class="accordion-item col-12">
                         <h2 class="accordion-heade">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -265,12 +342,12 @@
 
                 <button class="yellow-btn">Get a Service</button>
             </div>
-            <div>
-                <img src="./Image/we work/Group 1413372423.png" alt="">
+            <div class="image-side">
+                <img class="img-fluid d-none d-md-block" src="./Image/we work/Group 1413372423.png" alt="">
             </div>
         </section>
         <!-- Our reasons for choosing us section -->
-        <section class="gray-bg  d-non reason px-4 px-xl-0">
+        <section class="gray-bg  d-none reason px-4 px-xl-0">
             <div class="contain ">
                 <div class="text-center d-flex flex-column align-items-center justify-content-center">
 
@@ -321,7 +398,7 @@
 
         <!-- get update -->
 
-        <section class="get-update">
+        <section class="get-update d-none">
             <div class="contain">
                 <h3 class="get-top-title">Insights</h3>
                 <div class="blue-line"></div>
@@ -500,7 +577,7 @@
     </main>
     <!-- Footer Area -->
 
-    <footer>
+    <footer class="d-none">
         <div class="contain">
             <!-- Let TeraTax Simplify Your Taxes -->
             <section class="let-terataxa-area">

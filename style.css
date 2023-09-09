@@ -12,38 +12,38 @@ body {
   box-sizing: border-box;
 }
 h1 {
-  color: #000!important;
-  font-family: Playfair Display!important;
-  font-size: 71px!important;
-  font-style: normal!important;
+  color: #000 !important;
+  font-family: Playfair Display !important;
+  font-size: 71px !important;
+  font-style: normal !important;
   font-weight: 700;
-  line-height: 116.901%!important;
+  line-height: 116.901% !important;
 }
 h2 {
-  color: #000!important;
-  font-family: Playfair Display!important;
-  font-size: 55px!important;
-  font-style: normal!important;
-  font-weight: 700!important;
-  line-height: 65px!important; /* 118.182% */
+  color: #000 !important;
+  font-family: Playfair Display !important;
+  font-size: 55px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 65px !important; /* 118.182% */
 }
 .counter div h5 {
-  color: #000!important;
-  font-family: Circular Std!important;
-  font-size: 36px!important;
-  font-style: normal!important;
-  font-weight: 500!important;
-  line-height: 46px!important;
-  font-style: bold!important;
+  color: #000 !important;
+  font-family: Circular Std !important;
+  font-size: 36px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 46px !important;
+  font-style: bold !important;
 }
 
 p {
-  color: #000!important;
-  font-family: Circular Std!important;
-  font-size: 18px!important;
-  font-style: normal!important;
-  font-weight: 450!important;
-  line-height: 155.556%!important;
+  color: #000 !important;
+  font-family: Circular Std !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 450 !important;
+  line-height: 155.556% !important;
 }
 
 li {
@@ -63,7 +63,6 @@ section {
 .contain {
   max-width: 1290px;
   width: 100%;
-
   margin: auto;
   padding: 20px 0;
 }
@@ -78,6 +77,13 @@ section {
   font-style: normal;
   font-weight: 450;
   line-height: 155.556%; /*  */
+  transition: all;
+  transition-duration: 500ms;
+}
+.yellow-btn:hover {
+  color: white;
+  background: #0f0f0f;
+  border: none;
 }
 .blue-text {
   color: #5865f2;
@@ -103,6 +109,7 @@ section {
   border: none;
   background: white;
 }
+
 .card-container {
   margin-top: 50px;
   display: grid;
@@ -122,15 +129,15 @@ section {
   background: #fff;
 }
 .cards h6 {
-  margin-top: 20px;
-  margin-bottom: 16px;
-  color: #000;
-  font-family: Circular Std;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: capitalize;
+  margin-top: 20px !important;
+  margin-bottom: 16px !important;
+  color: #000 !important;
+  font-family: Circular Std !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  text-transform: capitalize !important;
 }
 cards button {
   margin-top: 20px;
@@ -159,6 +166,11 @@ nav ul li {
   font-weight: 450;
   line-height: 155.556%;
   cursor: pointer;
+  transition: all;
+  transition-duration: 500ms;
+}
+nav ul li:hover {
+  color: #2d4bff;
 }
 .logo {
   width: 80px;
@@ -172,6 +184,19 @@ nav ul li {
   width: 145px;
   height: 55px;
   color: #5865f2;
+  transition: all;
+  transition-duration: 500ms;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px; /* 155.556% */
+  text-align: center;
+  font-family: Circular Std;
+}
+.navbtn:hover {
+  color: white;
+  background: #5865f2;
+  /* border: none; */
 }
 /* small device nav style */
 .offcanvas-body ul {
@@ -193,7 +218,7 @@ nav ul li {
 }
 
 /* hero */
-@media (max-width: 1600px) {
+@media (min-width: 1440px) {
   .hero-right {
     margin-right: -90px;
     width: fit-content;
@@ -226,6 +251,10 @@ nav ul li {
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+.image-side,
+.text-side {
+  width: 50%;
 }
 /* accordian */
 /* Custom CSS for accordion */
